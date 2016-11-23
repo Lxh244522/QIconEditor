@@ -13,8 +13,13 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        iconeditor.cpp
+        iconeditor.cpp \
+    icon.cpp
 
-HEADERS  += iconeditor.h
+HEADERS  += iconeditor.h \
+    icon.h
 
 FORMS    += iconeditor.ui
+
+RESOURCES += \
+    icon.qrc
